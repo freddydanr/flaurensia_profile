@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "flaurensia",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Desc",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "freddy",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.20.25",
@@ -31,7 +31,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
